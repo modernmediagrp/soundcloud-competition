@@ -24,15 +24,19 @@ class User < ActiveRecord::Base
   end
 
   def soundcloud
-    Soundcloud.new(:client_id => Settings.key, :client_secret => Settings.secret, :access_token => token)
+    Soundcloud.new(
+      :client_id => Settings.client_id,
+      :client_secret => Settings.client_secret,
+      :access_token => token
+    )
   end
 
   def soundcloud_tracks
     tracks = []
-    eof = false    
+    eof = false
     offset = 0
 
-    until eof == true do    
+    until eof == true do
       new_tracks = soundcloud.get("/me/tracks.json?offset=#{offset}")
 
       eof = true if new_tracks.length == 0

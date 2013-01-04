@@ -4,6 +4,8 @@ class CompetitionsController < ApplicationController
 
   def show
     @competition = Competition.find(params[:id])
+  rescue ActiveRecord::RecordNotFound
+    render text: 'No Competition set up. Please edit db/seeds.rb and run `rake db:seed`', status: 404
   end
 
   def edit
