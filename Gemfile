@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', :git => "git://github.com/rails/rails.git", :branch => '3-1-stable'
+gem 'rails', '~> 3.1.0'
 
 group :assets do
   gem 'coffee-rails', "~> 3.1.0"
