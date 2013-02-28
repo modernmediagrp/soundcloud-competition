@@ -13,7 +13,7 @@ gem 'jquery-rails'
 gem 'haml'
 gem 'omniauth', :git => "git://github.com/intridea/omniauth.git", :branch => '0-3-stable'
 gem 'thumbs_up', :git => "git://github.com/leemartin/thumbs_up.git"
-gem 'redcarpet'
+gem 'redcarpet', '~> 1.17.2'
 gem 'rails_config'
 gem 'kaminari'
 gem 'soundcloud', "~> 0.2.9"
