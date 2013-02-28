@@ -8,7 +8,7 @@ group :assets do
   gem 'compass'
 end
 
-gem 'sass-rails', " ~> 3.1.0"
+gem 'sass-rails', " ~> 3.1.6"
 gem 'jquery-rails'
 gem 'haml'
 gem 'omniauth', :git => "git://github.com/intridea/omniauth.git", :branch => '0-3-stable'

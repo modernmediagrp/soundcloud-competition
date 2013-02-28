@@ -177,8 +177,8 @@ GEM
     ruby-openid-apps-discovery (1.2.0)
       ruby-openid (>= 2.1.7)
     rubyntlm (0.1.1)
-    sass (3.2.5)
-    sass-rails (3.1.6)
+    sass (3.2.6)
+    sass-rails (3.1.7)
       actionpack (~> 3.1.0)
       railties (~> 3.1.0)
       sass (>= 3.1.10)
@@ -223,7 +223,7 @@ DEPENDENCIES
   rails (~> 3.1.11)
   rails_config
   redcarpet (~> 1.17.2)
-  sass-rails (~> 3.1.0)
+  sass-rails (~> 3.1.6)
   soundcloud (~> 0.2.9)
   sqlite3
   thumbs_up!
