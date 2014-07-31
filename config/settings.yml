@@ -1,14 +1,14 @@
 # Be sure to restart your server after you modify this file.
 
 # Register your app at https://soundcloud.com/you/apps and copy&paste Client ID and Secret here
-client_id: ''
-client_secret: ''
+client_id: 'b0af2af78f91d4b293bf3a170567abd7'
+client_secret: '2ca3738a5e5275bfbc5cdba6368e037b'
 
 # Your secret key for verifying the integrity of signed cookies.
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-secret_token: ''
+secret_token: '2ca3738a5e5275bf3a170567abd7'
 
 # Replace these defaults with the right values for your competition
 # These will only be applied the first time you run `rake db:setup`
