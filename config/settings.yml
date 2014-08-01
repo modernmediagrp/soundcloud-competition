@@ -13,7 +13,7 @@ secret_token: '2ca3738a5e5275bf3a170567abd7'
 # Replace these defaults with the right values for your competition
 # These will only be applied the first time you run `rake db:setup`
 competition:
-  host: 'theartistscompetition.herokuapp.com.'
+  host: 'theartistscompetition.com.'
   title: The Artists Competition'
   intro: ''
   description: ''
